@@ -1,0 +1,10 @@
+echo - Output any text that we provide
+whoami - Find out what user we're currently logged in as!
+cat - used to display the contents of a file, concatenate multiple files, or create new files
+pwd - print working directory - see where we are on the machine
+find - used to find files (ex. tryhackme@linux1:~$ find -name *.txt) This will show all files containing the ending of .txt.
+grep - allows to search the contents of files for specific values that we are looking for. (ex. tryhackme@linux1:~$ grep "THM" access.log)
+& - this operator allows you to run commands in the background of your terminal.
+&& - this operator allows you to combine multiple commands together in one line of your terminal.
+> - this is a redirector, meaning we can take the output from a command (such as using cat to output a file) and direct it elsewhere. (ex. echo password123 > passwords) replaces passswords with password123
+>> - this operator does the same function of the > but appends the output rather than replacing (meaning nothing is overwritten) 
